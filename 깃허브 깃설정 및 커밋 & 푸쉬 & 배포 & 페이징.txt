@@ -146,9 +146,10 @@ To https://github.com/kimsuubin/just_shop.git
 
    가장 아래 쪽에 추가한다.
    "homepage": "http://kimsuubin.github.io/just_shop"
+   "homepage": "https://kimsuubin.github.io/green_welfare/"
 
  - Step 2: Install gh-pages and add deploy to scripts in package.json 
-   // gh-pages => npm i(install) gh-pages 설치
+   // gh-pages => npm i(install) gh-pages 설치  npm i gh-pages
       npm install --save gh-pages
 
    package.json scripts에 배포 추가
@@ -158,7 +159,7 @@ To https://github.com/kimsuubin/just_shop.git
 7. 빌드하기 npm run build (=> 생략가능)
 
  - Step 3: Deploy the site by running npm run deploy
-   // npm run deploy 
+   // npm run deploy
 
 8. 1분정도 후 웹 브라우저에 
    배포주소(http://kimsuubin.github.io/just_shop) 링크열기.
@@ -172,6 +173,7 @@ To https://github.com/kimsuubin/just_shop.git
 그 후 확인하기 git remote -v
 
 git remote add origin https://github.com/kimsuubin/just_shop_cra.git
+git remote add origin https://github.com/kimsuubin/green_welfare_cra.git
 
 주소확인 : git remote -v
 
